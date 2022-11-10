@@ -1,3 +1,210 @@
+:root {
+    --primary-header-color: #212121;
+    --second-header-color: #FFFFFF;
+    --primary-text-color: #757575;
+    --primary-link-color: #757575;
+    --accent-color: #2196F3;
+}
 body {
     font-family: "Roboto", "Raleway", sans-serif;
+}
+/*-------Universal Classes------*/
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+    color: var(--main-color);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*-----------HEADER----------*/
+header {
+    background-color: rgb(192, 188, 188);
+}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+span.web {
+    color: var(--accent-color)
+}
+.header-link {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    color: var(--primary-header-color);
+}
+.header-link:hover,
+.header-link:focus{
+    color: var(--accent-color);
+}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--primary-link-color);
+}
+.header-mail:hover,
+.header-mail:focus{
+    color: var(--accent-color);
+}
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-link-color);
+}
+/*-----------HERO----------*/
+
+.hero {
+    background-color: #2F303A;
+}
+.title {
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-header-color);
+
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--second-header-color);
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #188CE8;
+}
+
+/*-----------BENEFITS----------*/
+.sub-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-header-color);
+}
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*-----------WORK----------*/
+.work-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-header-color);
+}
+
+/*-----------TEAM----------*/
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-header-color);
+}
+.name-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-header-color);
+}
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*-----------FOOTER----------*/
+.footer {
+    background: #2F303A;
+    font-family: 'Roboto', sans-serif;
+    }
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+span.web {
+    color: var(--accent-color)
+}
+.footer-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-adress {
+    color: var(--second-header-color);
+}
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*-----------PORTFOLIO----------*/
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-header-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: #188CE8;
+    color: var(--second-header-color);
+}
+.project-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-header-color);
+}
+.project-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.25;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
