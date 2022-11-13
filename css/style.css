@@ -6,14 +6,22 @@
     --accent-color: #2196F3;
     --primary-logo-color: #000000;
     --second-logo-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
+    --accent-bg-color: #2196F3;
+    --btn-bg-color: #188CE8;
+    --portfolio-bg-color: #EEEEEE;
+    --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+    --footer-bg-color: #2F303A;
+    --team-bg-color: #F5F4FA;
 }
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-    background-color: #fff;
+    background-color: var(--primary-bg-color);
     color: var(--primary-text-color)
 }
+
 /*-------Universal Classes------*/
 .link {
     text-decoration: none;
@@ -53,9 +61,12 @@ span.web {
     line-height: 1.14;
     color: var(--primary-header-color);
 }
-.header-link:hover,
-.header-link:focus {
+.header-list .link:hover,
+.header-list .link:focus {
     color: var(--accent-color);
+}
+.header-list .link.current {
+    color: var(--accent-color)   
 }
 .header-mail {
     font-weight: 500;
@@ -78,7 +89,7 @@ span.web {
 /*-----------HERO----------*/
 
 .hero {
-    background: #2F303A;
+    background: var(--footer-bg-color);
 }
 .title {
     font-size: 44px;
@@ -96,14 +107,14 @@ span.web {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--second-header-color);
-    background: #2196F3;
+    background: var(--accent-bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
 }
 .hero-btn:hover,
-.hero-btn:focus{
-    background color: #2196F3;
+.hero-btn:focus {
+    background-color: var(--accent-bg-color);
 }
 
 /*-----------BENEFITS----------*/
@@ -133,7 +144,7 @@ span.web {
 
 /*-----------TEAM----------*/
 .team {
-    background: #F5F4FA;
+    background: var(--team-bg-color);
 }
 .team-title{
     font-weight: 700;
@@ -158,7 +169,7 @@ span.web {
 
 /*-----------FOOTER----------*/
 .footer {
-    background: #2F303A;
+    background: var(--footer-bg-color);
     }
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -185,10 +196,10 @@ span.web {
     color: var(--second-header-color);
 }
 .footer-mail {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-mail-tel-color);
 }
 .footer-tel {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-mail-tel-color);
 }
 
 /*-----------PORTFOLIO----------*/
@@ -204,9 +215,9 @@ span.web {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: #188CE8;
+    background-color: var(--btn-bg-color);
     color: var(--second-header-color);
-    background: #2196F3;
+    background: var(--accent-bg-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
@@ -214,7 +225,7 @@ span.web {
     list-style: none; 
 }
 .portfolio-list {
-    background-color: #EEEEEE;
+    background-color: var(--portfolio-bg-color);
 }
 .portfolio-subtitle {
     font-weight: 700;
