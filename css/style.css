@@ -9,15 +9,13 @@
     --primary-bg-color: #FFFFFF;
     --accent-bg-color: #2196F3;
     --btn-bg-color: #188CE8;
-    --portfolio-bg-color: #EEEEEE;
+    --portfolio-bg-color: #F5F5F5;
     --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
     --footer-bg-color: #2F303A;
     --team-bg-color: #F5F4FA;
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color)
 }
@@ -61,6 +59,13 @@ span.web {
     line-height: 1.14;
     color: var(--primary-header-color);
 }
+.header-list .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-header-color);
+}
 .header-list .link:hover,
 .header-list .link:focus {
     color: var(--accent-color);
@@ -92,13 +97,13 @@ span.web {
     background: var(--footer-bg-color);
 }
 .title {
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--second-header-color);
-
 }
 .hero-btn {
     font-family: inherit;
@@ -188,8 +193,8 @@ span.web {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.footer-list:hover,
-.footer-list:focus{
+.footer-list .link:hover,
+.footer-list .link:focus {
     color: var(--accent-color);
 }
 .footer-adress {
@@ -215,11 +220,9 @@ span.web {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: var(--btn-bg-color);
     color: var(--second-header-color);
     background: var(--accent-bg-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
 }
 .portfolio-btn-list {
     list-style: none; 
@@ -236,7 +239,7 @@ span.web {
 }
 .portfolio-text {
     font-size: 16px;
-    line-height: 2.25;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
