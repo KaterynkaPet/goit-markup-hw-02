@@ -2,7 +2,7 @@
     --primary-header-color: #212121;
     --second-header-color: #FFFFFF;
     --primary-text-color: #757575;
-    --primary-link-color: #757575;
+    --primary-list-color: #757575;
     --accent-color: #2196F3;
     --primary-logo-color: #000000;
     --second-logo-color: #FFFFFF;
@@ -23,6 +23,7 @@ body {
 /*-------Universal Classes------*/
 .link {
     text-decoration: none;
+    list-style: none;
 }
 .list {
     list-style: none;
@@ -43,6 +44,7 @@ body {
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -52,33 +54,33 @@ body {
 span.web {
     color: var(--accent-color)
 }
-.header-link {
+
+.header-nav .link {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.14;
     color: var(--primary-header-color);
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--accent-color);
+}
+.header-nav .link.current {
+    color: var(--accent-color)   
 }
 .header-list .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-header-color);
-}
-.header-list .link:hover,
-.header-list .link:focus {
-    color: var(--accent-color);
-}
-.header-list .link.current {
-    color: var(--accent-color)   
+    color: var(--primary-list-color);
 }
 .header-mail {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.02em;
-    color: var(--primary-link-color);
 }
 .header-mail:hover,
 .header-mail:focus{
@@ -89,8 +91,7 @@ span.web {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-link-color);
-}
+ }
 /*-----------HERO----------*/
 
 .hero {
@@ -178,6 +179,7 @@ span.web {
     }
 .footer-logo {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -226,9 +228,6 @@ span.web {
 }
 .portfolio-btn-list {
     list-style: none; 
-}
-.portfolio-list {
-    background-color: var(--portfolio-bg-color);
 }
 .portfolio-subtitle {
     font-weight: 700;
