@@ -33,7 +33,7 @@ body {
     color: #2E2F42;
  }
  
- .menu {
+ .menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -111,6 +111,10 @@ body {
 }
 
 .team {
+    background-color: #F4F4FD;
+}
+
+.card-list {
     background-color: #FFFFFF;
 }
 
