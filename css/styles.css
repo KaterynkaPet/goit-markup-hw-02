@@ -25,7 +25,7 @@ body {
      font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
-     letter-spacing: 0.03em
+     letter-spacing: 0.03em;
      color: #4D5AE5;
  }
 
@@ -33,7 +33,7 @@ body {
     color: #2E2F42;
  }
  
- .menu link {
+ .menu list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -104,6 +104,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.advantages {
+    background-color: #FFFFFF;
 }
 
 .team {
