@@ -1,0 +1,124 @@
+/*colors
+iris #4D5AE5
+NAVY BLUE #2E2F42
+SLATE #434455
+WHITE #FFFFFF
+CLOUD #F4F4FD
+*/
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #434455;
+ }
+
+ .logo-header {
+     text-decoration: none;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     Line height: 1.16;
+     color: #2E2F42;
+
+ }
+ 
+ .logo {
+     color: #4D5AE5;
+ }
+
+ .menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    Line height: 1.5;
+    color: #2E2F42;
+ }
+
+ .link:hover,
+ .link:focus {
+    color: #404BBF;
+ }
+
+.contacts {
+    font-size: 16px;
+    Line height: 1.5;
+    font-style: normal;
+   
+}
+
+.solutions {
+    background-color: #2E2F42;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    Line height: 1.11;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    Line height: 1.5;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    Line height: 1.11;
+    color: #2E2F42;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    Line height: 1.2;
+    color: #2E2F42;
+}
+
+.text {
+    font-size: 16px;
+    Line height: 1.5;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+.logo-footer{
+   text-decoration: none;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   Line height: 1.16;
+   color: #F4F4FD;
+ }
+ 
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    font-size: 16px;
+    Line height: 1.5;
+    color: #F4F4FD;
+}
